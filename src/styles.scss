@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --font-headings: "Inter", "sans-serif";
+    --font-main: "Poppins", "sans-serif";
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayis-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    --Font-size-paragraph: 15px;
+    --Font-size-text: 30px;
+  }
+
+  * {
+    //El * es para que se aplique regla a todo los elementos
+    margin: 0;
+    box-sizing: border-box; // para que el navegador tenga encuenta cualquier border de relleno
+
+}
+
+/*body{
+    font-family: var(--font-main);
+}*/
