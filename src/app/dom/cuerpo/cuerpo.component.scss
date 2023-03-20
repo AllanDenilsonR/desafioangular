@@ -1,7 +1,7 @@
 .cuerp-prin {
     min-height: 67vh;
     position: relative;
-    margin-left: 125px;
+    margin-left: 95px;
     margin-right: 525px;
 
 
@@ -19,8 +19,9 @@
 img {
     width:100%;
     display: block;
-    max-width: 655px;
+    max-width: 700px;
     margin: 0 auto; //centrar en caso que rebase el ancho
+    
 }
 
 .general_title{
@@ -29,15 +30,17 @@ img {
 .general_p{
     font-family: var(--font-main);
     line-height: 1.5; 
-    //margin: 0 10em; 
     position: relative;
     width: 370px;
     height: 30px;
     font-size: var(--Font-size-paragraph);
-    margin-left: 43%;
+    /*margin-left: 43%;
     margin-bottom: 0;
     margin-top: -9%;
-    margin-right: 0;
+    margin-right: 0;*/
+
+    left: 47%;
+    top: -55px;
  }
 
  .general_texts{
@@ -47,21 +50,21 @@ img {
     width: 260px;
     height: 70px;
     font-size:  var(--Font-size-text);
-    margin-left: 3%;
-    margin-bottom: 0;
-    margin-top: 3%;
-    margin-right: 0;
+    left: 11px;
+    top: 9.5px;
  }
 
  .readmore{
      background-color: hsl(9, 81%, 60%);
-     width: 11em;
-     height: 35px;
-     margin-top: 2%;
+     position: relative;
+     width: 10em;
+     height: 33px;
+     top: 29%;
  }
 
  .readme{
      color: var(--Off-white);
      text-align: center;
-     margin-top: 6px;
+     position: relative;
+     top: 7px;
  }

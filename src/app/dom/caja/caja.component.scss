@@ -1,0 +1,77 @@
+.caja-prin {
+    min-height: 67vh;
+    max-width: 49vh;
+    position: relative;
+    margin-left: 835px;
+   // margin-right: 20px;
+    margin-top: -440px;
+
+
+}
+
+.caja {
+    background-color: hsl(260, 57%, 9%);
+    min-height: 64vh;
+    max-width: 49vh;
+}
+h1{
+    color: hsl(51, 93%, 48%);
+    font-family: var(--font-main); 
+    position: relative;
+    top: 20px;
+    right: -14px;
+    max-width: 9.5em;
+}
+
+.linea1 {
+    height: 2px;
+    width: 97%;
+    background-color: rgb(214, 214, 214);
+    //padding-top: 200px;
+    position: relative;
+    top: 60px;
+    right: -4px;
+  }
+
+  .linea2 {
+    height: 2px;
+    width: 97%;
+    background-color: rgb(214, 214, 214);
+    position: relative;
+    top: 120px;
+    right: -4px;
+    
+  }
+
+  h2{
+      color: rgb(236, 236, 236);
+      font-size: 18px;
+      font-family: var(--font-main);
+      position: relative;
+      left: 13px;
+      max-width: 16.7em;
+  }
+
+  p{
+    color: rgb(209, 209, 209);
+    font-size: 12px;
+    font-family: var(--font-main);
+    position: relative;
+    left: 14px;
+    line-height: 1.5; 
+    max-width: 25em;
+  }
+
+  .parrafos1 {
+    position: relative;
+    top: 20px;
+  }
+  .parrafos2 {
+    position: relative;
+    top: 80px;
+  }
+
+  .parrafos3 {
+    position: relative;
+    top: 140px;
+  }

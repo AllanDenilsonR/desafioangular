@@ -21,7 +21,7 @@ import { CajaComponent } from './caja/caja.component';
     MenuComponent,
     CuerpoComponent,
     PiepaginaComponent,
-    //CajaComponent
+    CajaComponent
   ]
 })
 export class DomModule { }
