@@ -1,19 +1,11 @@
+
 .cuerp-prin {
     min-height: 67vh;
     position: relative;
     margin-left: 95px;
     margin-right: 525px;
 
-
-   /* &_img {
-        width: 100%;
-        display: block;
-        max-width: 400px;
-        margin: 0 auto; //centrar en caso que rebase el ancho
-
-       
-     }*/
-
+    
 }
 
 img {
@@ -34,11 +26,6 @@ img {
     width: 370px;
     height: 30px;
     font-size: var(--Font-size-paragraph);
-    /*margin-left: 43%;
-    margin-bottom: 0;
-    margin-top: -9%;
-    margin-right: 0;*/
-
     left: 47%;
     top: -55px;
  }
@@ -60,6 +47,12 @@ img {
      width: 10em;
      height: 33px;
      top: 29%;
+     border: 0;
+     color: hsl(0, 0%, 99%);
+
+     &:hover{
+         background-color: hsl(0, 0%, 0%);
+     }
  }
 
  .readme{
@@ -68,3 +61,6 @@ img {
      position: relative;
      top: 7px;
  }
+
+
+
